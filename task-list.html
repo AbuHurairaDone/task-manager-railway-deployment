@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List - TaskManager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h1>TaskManager</h1>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="task-list.html" class="active">Task List</a></li>
+            <li><a href="add-task.html">Add Task</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <header style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <h2>Task Workspace</h2>
+                <p>Managed by: Abdullah Ikram</p>
+            </div>
+            <a href="add-task.html" class="btn btn-primary">+ New Task</a>
+        </header>
+
+        <div class="card" style="padding: 0; overflow: hidden;">
+            <table class="task-table">
+                <thead>
+                    <tr>
+                        <th>Task Name</th>
+                        <th>Assignee</th>
+                        <th>Priority</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Setup Project Repository</strong></td>
+                        <td>Abu Hurara</td>
+                        <td><span class="badge badge-high">High</span></td>
+                        <td><a href="task-detail.html" class="btn btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">View</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Design UI Mockups</strong></td>
+                        <td>Muhammad Bilal</td>
+                        <td><span class="badge badge-medium">Medium</span></td>
+                        <td><a href="task-detail.html" class="btn btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">View</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Implement Core CSS</strong></td>
+                        <td>Abdullah Ikram</td>
+                        <td><span class="badge badge-low">Low</span></td>
+                        <td><a href="task-detail.html" class="btn btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">View</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+</body>
+</html>
