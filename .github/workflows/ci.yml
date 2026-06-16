@@ -25,5 +25,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/taskflow:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/taskflow:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/task-manager:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/task-manager:${{ github.sha }}
