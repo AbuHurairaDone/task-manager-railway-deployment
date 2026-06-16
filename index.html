@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - TaskManager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h1>TaskManager</h1>
+        <ul>
+            <li><a href="index.html" class="active">Dashboard</a></li>
+            <li><a href="task-list.html">Task List</a></li>
+            <li><a href="add-task.html">Add Task</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <header>
+            <h2>Welcome Back, Abu Hurara</h2>
+            <p>Here's an overview of your team's current productivity.</p>
+        </header>
+
+        <section class="stats-grid">
+            <div class="card">
+                <h4 style="color: var(--text-muted)">Total Tasks</h4>
+                <p style="font-size: 2rem; font-weight: bold; margin-top: 0.5rem;">24</p>
+            </div>
+            <div class="card">
+                <h4 style="color: var(--success)">Completed</h4>
+                <p style="font-size: 2rem; font-weight: bold; margin-top: 0.5rem;">18</p>
+            </div>
+            <div class="card">
+                <h4 style="color: var(--warning)">In Progress</h4>
+                <p style="font-size: 2rem; font-weight: bold; margin-top: 0.5rem;">4</p>
+            </div>
+            <div class="card">
+                <h4 style="color: var(--danger)">Pending</h4>
+                <p style="font-size: 2rem; font-weight: bold; margin-top: 0.5rem;">2</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h3 style="margin-bottom: 1rem;">Recent Activity</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0.75rem;">✔️ Muhammad Bilal created a new task: <strong>Design Database Schema</strong></p>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0.75rem;">✔️ Abdullah Ikram updated status on <strong>API Integration</strong> to "In Progress"</p>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">✔️ Abu Bakar left a comment on <strong>QA Testing</strong></p>
+        </section>
+    </main>
+
+</body>
+</html>
